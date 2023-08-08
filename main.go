@@ -1,5 +1,6 @@
 package main
 
+// run GOOS=js GOARCH=wasm go build  -o main.wasm
 import (
 	"fmt"
 	"syscall/js"
