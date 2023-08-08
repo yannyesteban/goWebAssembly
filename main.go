@@ -17,7 +17,7 @@ func main() {
 
 	ch := make(chan struct{}, 0)
 
-	fmt.Println("hello Mundo 2024!")
+	fmt.Println("hello Mundo 2024 !")
 
 	js.Global().Set("getHtml", GetAlgo())
 
